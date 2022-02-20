@@ -26,11 +26,13 @@ header {
 }
 
 header h1 {
+    outline: 3px dotted red;
 }
 header h1 span {
 }
 
 header nav {
+    outline: 3px dotted red;
 }
 header nav ul {
 }
@@ -58,6 +60,7 @@ header nav ul li a {
 .section-one,
 .section-two,
 .section-three {
+    outline: 3px dotted red;
 }
 
 .section-one h4 {
