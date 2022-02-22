@@ -7,7 +7,7 @@ body {
     margin: 0 auto;
     overflow: auto;
 }
-
+/* How can this be simplified as much as possible? */
 h1,
 h2,
 h3 {
@@ -26,13 +26,17 @@ header {
 }
 
 header h1 {
-    outline: 3px dotted red;
+    /* outline: 3px dotted red; */
+    width: 300px;
+    float: left;
 }
 header h1 span {
 }
 
 header nav {
-    outline: 3px dotted red;
+    /* outline: 3px dotted red; */
+    width: 300px;
+    float: right;
 }
 header nav ul {
 }
@@ -60,7 +64,10 @@ header nav ul li a {
 .section-one,
 .section-two,
 .section-three {
-    outline: 3px dotted red;
+    /* outline: 3px dotted red; */
+    width: 400px;
+    box-sizing: border-box;
+    float: left;
 }
 
 .section-one h4 {
