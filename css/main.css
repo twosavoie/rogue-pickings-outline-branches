@@ -41,6 +41,7 @@ header nav {
 header nav ul {
 }
 header nav ul li {
+    display: inline-block;
 }
 header nav ul li a {
 }
@@ -92,6 +93,7 @@ header nav ul li a {
 }
 
 footer {
+    text-align: center;
 }
 footer span {
 }
