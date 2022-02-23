@@ -1,66 +1,81 @@
+/******** GLOBAL STYLES ********/
 body {
-
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: black;
 }
 
+h1,
+h2,
+h3 {}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+p {
+    line-height: 36px;
+}
+
+/****** GRID STYLES *******/
 .content-wrapper {
     width: 1200px;
     margin: 0 auto;
     overflow: auto;
 }
-/* How can this be simplified as much as possible? */
-h1,
-h2,
-h3 {
-}
-h1 {
-}
-h2 {
-}
-h3 {
-}
 
-p {
-}
-
-header {
-}
+/******* HEADER STYLES *******/
+header {}
 
 header h1 {
     /* outline: 3px dotted red; */
     width: 300px;
     float: left;
 }
-header h1 span {
-}
+
+header h1 span {}
 
 header nav {
     /* outline: 3px dotted red; */
     width: 300px;
     float: right;
 }
-header nav ul {
-}
+
+header nav ul {}
+
 header nav ul li {
     display: inline-block;
-}
-header nav ul li a {
+    font-size: 14px;
 }
 
+header nav ul li a {}
+
+
+/*********  MAIN STYLES *********/
 .top-section,
-.bottom-section {
-}
+.bottom-section {}
 
-.main-image {
-}
-.main-image img {
-}
+.main-image {}
 
-.main-title {
-}
-.main-title h3 {
-}
-.main-title p {
-}
+.main-image img {}
+
+.main-title {}
+
+.main-title h3 {}
+
+.main-title p {}
 
 .section-one,
 .section-two,
@@ -71,29 +86,24 @@ header nav ul li a {
     float: left;
 }
 
-.section-one h4 {
-}
+.section-one h4 {}
 
-.section-two {
-}
+.section-two {}
 
 .section-two h4,
-.section-three h4 {
-}
+.section-three h4 {}
 
-.menu {
-}
-.menu li {
-}
+.menu {}
 
-.reviews {
-}
+.menu li {}
 
-.address {
-}
+.reviews {}
 
+.address {}
+
+/********** FOOTER STYLES **********/
 footer {
     text-align: center;
 }
-footer span {
-}
+
+footer span {}
