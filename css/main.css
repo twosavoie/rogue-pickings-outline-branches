@@ -46,7 +46,7 @@ header h1 {
     width: 300px;
     float: left;
     margin: 0;
-    padding: 38px 0;
+    padding: 36px 0;
 }
 
 header h1 span {
@@ -57,7 +57,7 @@ header nav {
     /* outline: 3px dotted red; */
     width: 300px;
     float: right;
-    padding: 46px 0;
+    padding: 44px 0;
 }
 
 header nav ul {
@@ -105,11 +105,6 @@ header nav ul li a {
     padding: 0 60px;
 }
 
-.section-two {
-    border-left: 5px solid #EEE;
-    border-right: 5px solid #EEE;
-}
-
 .bottom-section h3 {
     padding: 10px 0;
 }
@@ -122,6 +117,15 @@ header nav ul li a {
 .menu li {
     color: #45610E;
     line-height: 36px;
+}
+
+.section-two {
+    border-left: 5px solid #EEE;
+    border-right: 5px solid #EEE;
+}
+
+.section-three {
+    padding-left: 120px;
 }
 
 /********** FOOTER STYLES **********/
